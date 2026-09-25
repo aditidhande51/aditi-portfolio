@@ -1,0 +1,26 @@
+{
+  "name": "aditi-sanjay-dhande-portfolio",
+  "version": "1.0.0",
+  "description": "Personal Portfolio Website for Aditi Sanjay Dhande - Electronics & Embedded Systems Developer",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "build": "echo 'Static assets ready for deployment'"
+  },
+  "keywords": [
+    "portfolio",
+    "embedded-systems",
+    "electrical-engineering",
+    "render",
+    "aditi-dhande"
+  ],
+  "author": "Aditi Sanjay Dhande",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

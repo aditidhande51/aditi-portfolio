@@ -1,0 +1,19 @@
+# ==============================================================================
+# Render Blueprint Specification for Aditi Sanjay Dhande Portfolio
+# Official documentation: https://render.com/docs/blueprint-spec
+# ==============================================================================
+
+services:
+  # Render Web Service (Node.js Production Server)
+  - type: web
+    name: aditi-sanjay-dhande-portfolio
+    runtime: node
+    plan: free
+    region: oregon
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /healthz
+    autoDeploy: true
+    envVars:
+      - key: NODE_ENV
+        value: production
